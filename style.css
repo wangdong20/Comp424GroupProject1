@@ -6,7 +6,7 @@
 
 .leftPart {
     width: 500px;
-    height: 680px;
+    height: 380px;
     float: left;
     position: relative;
     display: block;
@@ -35,7 +35,7 @@
 /*starting right side css*/
 .rightPart {
     width: 398px;
-    height: 678px;
+    height: 378px;
     float: right;
     border: 1px solid blue;
     border-bottom-right-radius: 90px;
