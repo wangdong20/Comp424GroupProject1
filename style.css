@@ -125,3 +125,75 @@
 .submit_button:hover {
 	background-color: red;
 }
+
+.titleLoginCreate {
+    font-size: 27px;
+    text-align: center;
+    font-weight: bold;
+    color: skyblue; 
+}
+
+/*.userEmail {
+    float: left;
+    width: 252px;
+    height: 32px;
+    font-size: 15px;
+    color: black;
+    text-indent: 10px;
+    border: 0;
+    outline: none;
+}*/
+
+.userEmail {
+    width: 100%;
+    height: 97%;
+    font-size: 19px;
+    color: black;
+    text-indent: 10px;
+    border: 0;
+    outline: none;
+}
+
+.Formatemail {
+    width: 310px;
+    height: 32px;
+    border-bottom: 1px solid black;   
+}
+
+/*.submit_email_button {
+    float: right;
+    background-color: skyblue;
+    max-height: 100px;
+    min-height: 30px;
+
+}
+
+.submit_email_button:hover {
+    background-color: red;
+}*/
+
+.email_box {
+    width: 310px;
+    height: 42px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.close_page {
+    float: right;
+    background-color: skyblue;
+    
+}
+
+.close_page:hover {
+    background-color: red;
+}
+
+.submit_button_create {
+    margin-top: 10px;
+    max-width: 100px;
+    max-height: 100px; 
+    min-width: 300px; 
+    min-height: 30px;
+    background-color: skyblue;
+}

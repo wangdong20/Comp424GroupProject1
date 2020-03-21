@@ -2,11 +2,66 @@
 
 <html>
 	<head>
-		<title>Create Account</title>
+		<title>Sign up Account</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
+<!-- 	<script>
+		function checkp{
+			var p = createAccount.p.value;
+			var rp = createAccount.rp.value;
+
+			if(p==rp)
+
+			else
+			alert("password doesn't match!")
+
+			msg=(p==rp)?"Both are some":"mismatch";
+			alert(msg)
+		}
+	</script> -->
 	<body>
-		<h1>create account</h1>
+		<div class = "main_container">
+			<div class = "leftPart">
+				<div class ="leftColor">
+					<div class = "leftimg"> </div>
+				</div>
+			</div>
+			<form action="create.html" name = "createAccount"> 		
+				<div class="rightPart">					
+					<button type="button" class ="close_page">
+						<a href="index.html">Close</a>
+					</button>
+					<div class = "titleLoginCreate">
+						<p> Sign Up</p>
+					</div>
+					<div class = "mainFormat">
+						<div class = "loginFormatID">
+							<input class ="inputID" type="text" placeholder="UserID" required>
+						</div>
+						<div class = "loginFormatPWD">
+							<input class ="inputPWD" type="password"placeholder="Password" name ="p"required>
+						</div>
+
+						<div class = "loginFormatPWD">
+							<input class ="inputPWD" type="password" placeholder="Re-type Password" name ="rp"required>
+						</div>
+						<div class = "Formatemail">
+							<div>
+								<input class ="userEmail" type="email" placeholder="Email" required>
+							</div>
+							<!--<div>
+			
+								<input type="submit" class="submit_email_button" value="Vertify">
+							</div> -->
+						</div>
+							<div>
+								<input type="submit" class="submit_button_create" value="Sign Up" onclick = "checkp()">
+							</div>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
 	</body>
 	<footer>
 
