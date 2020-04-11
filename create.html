@@ -4,22 +4,9 @@
 	<head>
 		<title>Sign up Account</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script type="text/javascript" src="scripts/create.js"></script>
 	</head>
-<!-- 	<script>
-		function checkp{
-			var p = createAccount.p.value;
-			var rp = createAccount.rp.value;
-
-			if(p==rp)
-
-			else
-			alert("password doesn't match!")
-
-			msg=(p==rp)?"Both are some":"mismatch";
-			alert(msg)
-		}
-	</script> -->
-	<body>
 		<div class = "main_container">
 			<div class = "createleftPart">
 				<div class ="createleftColor">
@@ -49,18 +36,24 @@
 						<div class = "dateOfBirth">
 							<input class = "dateBirth" type = "date" name="birthDate" size = "30" min= "1930-01-01" max= "2010-01-01" required>
 						</div>
-						<div class = "createFormatPWD">
-							<input class ="inputPWD" type="password"placeholder="Password" name ="password"required>
-						</div>
-
-						<div class = "createFormatPWD">
-							<input class ="inputPWD" type="password" placeholder="Re-type Password" name ="retype_pwd"required>
-						</div>
 						<div class = "Formatemail">
 							<div>
 								<input class ="userEmail" type="email" name="email" placeholder="Email" required>
 							</div>
+						</div>						
+						<div class = "createFormatPWD">
+							<input class ="inputPWD" type="password"placeholder="Password" id="main_password" name ="password" required>
 						</div>
+
+						<div class = "createFormatPWD">
+							<input class ="inputPWD" type="password" placeholder="Re-type Password" id="check_password" name ="retype_pwd" required>
+						</div>
+						<div id ="password_level"></div>
+<!-- 						<div class = "Formatemail">
+							<div>
+								<input class ="userEmail" type="email" name="email" placeholder="Email" required>
+							</div>
+						</div> -->
 						<div class ="chooseQuestion">
 							<p>Chose and Answer Three Slective Question</p>
 						</div>
