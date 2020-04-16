@@ -35,9 +35,11 @@ function passwordStrengthCehck(main_password, check_password, level_check){
 	$(check_password).on('keyup', function(e){
 		if(main_password.val() !== check_password.val()){
 			level_check.removeClass().addClass('weak_password').html("passwords do not match!");
+			$('.submit_button_create').prop('disabled', true);
 		}
 		else{
 			level_check.removeClass().addClass('perfect_password').html("passwords match!");
+			$('.submit_button_create').prop('disabled', false);
 		}
 	});
 

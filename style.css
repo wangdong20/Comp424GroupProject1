@@ -411,6 +411,40 @@ select {
     outline: none;    
 }
 
+.leftPartPW {
+    width: 500px;
+    height: 780px;
+    float: left;
+    position: relative;
+    display: block;
+}
+
+.rightPartPW {
+    width: 398px;
+    height: 778px;
+    float: right;
+    border: 1px solid blue;
+    border-bottom-right-radius: 90px;
+    background-color: aliceblue;
+}
+
+.titleForgotPage{
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: skyblue;     
+}
+
+.submit_button_ID{
+    margin-top: 30px;
+    max-width: 100px;
+    max-height: 100px; 
+    min-width: 300px; 
+    min-height: 30px;
+    background-color: skyblue;
+}
 #password_level{
     width: 310px;
     height: 43px;
@@ -443,6 +477,12 @@ select {
     background: skyblue;
     color: green;
 }            
+.forgot_ID {
+    float: right;
+    font-size: 12px;
+    cursor: pointer;
+    color: blue;
+}
 
 /*from https://codepen.io/maheshambure21/pen/VYJQYG*/
 [type="date"] {
