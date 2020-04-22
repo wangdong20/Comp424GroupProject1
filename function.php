@@ -1,6 +1,6 @@
 <?php
 
-require("connect.php");
+require("php/connect.php");
 
 function getUsersData($id){
 	$array = array();
