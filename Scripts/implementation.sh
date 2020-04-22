@@ -3,7 +3,7 @@
 ##################################################
 # implementation.sh: It will include all the commands regarding implementing policies for your firewall, IDS, etc. You may use a stream editor such as ?~@~\sed?~@~] to implement them using your automated scripts, if that requires editing specific files
 
-# Written by Chris Yun
+# Written by Chris Yun and Dong Wang
 
 ##################################################
 
